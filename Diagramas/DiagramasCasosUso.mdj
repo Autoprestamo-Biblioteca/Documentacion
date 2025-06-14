@@ -402,7 +402,7 @@
 									"parentStyle": true,
 									"left": 414.5,
 									"top": 245,
-									"width": 183,
+									"width": 184.0654296875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtSBoOgmBp8="
@@ -905,7 +905,7 @@
 									"parentStyle": true,
 									"left": 413.5,
 									"top": 357,
-									"width": 179,
+									"width": 179.7490234375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtTyUOnx6Mo="
@@ -1225,7 +1225,7 @@
 									"parentStyle": true,
 									"left": 805,
 									"top": 269,
-									"width": 255,
+									"width": 255.63525390625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtXnteveljM="
@@ -1446,7 +1446,7 @@
 									"parentStyle": true,
 									"left": 874,
 									"top": 357,
-									"width": 161,
+									"width": 162.419921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtZC0O2Wma4="
@@ -1865,7 +1865,7 @@
 									"parentStyle": true,
 									"left": 471,
 									"top": 517,
-									"width": 188,
+									"width": 188.4326171875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtbxHfCCCLg="
@@ -2086,7 +2086,7 @@
 									"parentStyle": true,
 									"left": 759.5,
 									"top": 501,
-									"width": 190,
+									"width": 190.6162109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFtcWp/DRMpA="
@@ -2604,7 +2604,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGXFtnONfLfBkU="
 					},
-					"name": "Verificar Prestamo",
+					"name": "Autorizar Prestamo",
 					"ownedViews": [
 						{
 							"_type": "UMLUseCaseSubjectView",
@@ -2989,7 +2989,7 @@
 									"parentStyle": true,
 									"left": 368,
 									"top": 341,
-									"width": 193,
+									"width": 193.47265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFt61nvNInGk="
@@ -3492,7 +3492,7 @@
 									"parentStyle": true,
 									"left": 701.5,
 									"top": 349,
-									"width": 179,
+									"width": 179.7490234375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFt8g2/QlPjc="
@@ -3812,7 +3812,7 @@
 									"parentStyle": true,
 									"left": 495.5,
 									"top": 445,
-									"width": 227,
+									"width": 228.1181640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFuAoQfrG/94="
@@ -4208,7 +4208,7 @@
 											"parentStyle": true,
 											"left": 301,
 											"top": 207,
-											"width": 623,
+											"width": 487,
 											"height": 13,
 											"text": "Módulo de Renovación"
 										},
@@ -4246,7 +4246,7 @@
 									"parentStyle": true,
 									"left": 296,
 									"top": 200,
-									"width": 633,
+									"width": 497,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFuTC2v2LyPg="
@@ -4266,7 +4266,7 @@
 							"parentStyle": false,
 							"left": 296,
 							"top": 200,
-							"width": 632,
+							"width": 496,
 							"height": 272,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXFuTC2v2KJmM="
@@ -4548,7 +4548,7 @@
 									"parentStyle": true,
 									"left": 387,
 									"top": 293,
-									"width": 168,
+									"width": 168.9072265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFuYuMf3UOjI="
@@ -5051,7 +5051,7 @@
 									"parentStyle": true,
 									"left": 492.5,
 									"top": 405,
-									"width": 212,
+									"width": 212.97900390625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFuanEf6eIx8="
@@ -5453,7 +5453,7 @@
 											"font": "Arial;13;1",
 											"parentStyle": true,
 											"left": 253,
-											"top": 79,
+											"top": 135,
 											"width": 479,
 											"height": 13,
 											"text": "Modulo de Renovación"
@@ -5494,7 +5494,7 @@
 									"font": "Arial;13;0",
 									"parentStyle": true,
 									"left": 248,
-									"top": 72,
+									"top": 128,
 									"width": 489,
 									"height": 25,
 									"stereotypeLabel": {
@@ -5515,9 +5515,9 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"left": 248,
-							"top": 72,
+							"top": 128,
 							"width": 488,
-							"height": 400,
+							"height": 312,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXFvLAnQLlsGk="
 							}
@@ -5608,7 +5608,7 @@
 									"parentStyle": true,
 									"left": 370.5,
 									"top": 231.5,
-									"width": 202,
+									"width": 203.578125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvLAnQLngrE="
@@ -5829,7 +5829,7 @@
 									"parentStyle": true,
 									"left": 457,
 									"top": 373,
-									"width": 156,
+									"width": 157.34814453125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvLAnQLyFag="
@@ -7016,11 +7016,11 @@
 											"fillColor": "#FFFF91",
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 543,
+											"left": 550,
 											"top": 352,
-											"width": 191,
+											"width": 225,
 											"height": 13,
-											"text": "RF-CU-18-Ver resumen de libro"
+											"text": "RF-CU-18-Ver resumen del préstamo"
 										},
 										{
 											"_type": "LabelView",
@@ -7057,9 +7057,9 @@
 									"fillColor": "#FFFF91",
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 538,
+									"left": 545,
 									"top": 345,
-									"width": 201,
+									"width": 236.12255859375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvS/1ASwedI="
@@ -7171,7 +7171,7 @@
 							"containerChangeable": true,
 							"left": 496,
 							"top": 336,
-							"width": 285,
+							"width": 333,
 							"height": 43,
 							"nameCompartment": {
 								"$ref": "AAAAAAGXFvS/1AS0RYI="
@@ -7280,7 +7280,7 @@
 									"parentStyle": true,
 									"left": 343.5,
 									"top": 223.5,
-									"width": 189,
+									"width": 189.86083984375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvS/1AS7jGM="
@@ -7437,8 +7437,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 529,
-									"top": 302,
+									"left": 541,
+									"top": 303,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -7458,8 +7458,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 495,
-									"top": 315,
+									"left": 508,
+									"top": 316,
 									"width": 53.49169921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -7482,8 +7482,8 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"parentStyle": false,
-									"left": 544,
-									"top": 277,
+									"left": 556,
+									"top": 276,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -7502,7 +7502,7 @@
 								"$ref": "AAAAAAGXFvS/1AS6T+M="
 							},
 							"lineStyle": 1,
-							"points": "602:335;473:257",
+							"points": "621:335;477:257",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGXFvS/1ATGXA8="
@@ -7907,7 +7907,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGXFvS/1ATmCLM="
 					},
-					"name": "RF-CU-18-Ver resumen de libro",
+					"name": "RF-CU-18-Ver resumen del préstamo",
 					"ownedElements": [
 						{
 							"_type": "UMLExtend",
@@ -8339,7 +8339,7 @@
 									"parentStyle": true,
 									"left": 398,
 									"top": 221,
-									"width": 260,
+									"width": 260.67529296875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvUAygVnKV8="
@@ -9197,7 +9197,7 @@
 									"parentStyle": true,
 									"left": 361,
 									"top": 277,
-									"width": 157,
+									"width": 158.08447265625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvtoJAqkU+c="
@@ -9686,7 +9686,7 @@
 									"parentStyle": true,
 									"left": 699.5,
 									"top": 277,
-									"width": 209,
+									"width": 209.41162109375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvwdlgvuKQ4="
@@ -9990,7 +9990,7 @@
 									"parentStyle": true,
 									"left": 885,
 									"top": 381,
-									"width": 177,
+									"width": 177.578125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFvyEtg4rD7s="
@@ -10299,7 +10299,7 @@
 									"parentStyle": true,
 									"left": 388.5,
 									"top": 381,
-									"width": 212,
+									"width": 212.99169921875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGXFv2AjxAJFSQ="
