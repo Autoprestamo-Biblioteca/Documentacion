@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {I}INTRODUCCIÓN}{11}{section.1}%
+\contentsline {section}{\numberline {II}PLANTEAMIENTO DEL PROBLEMA}{12}{section.2}%
+\contentsline {section}{\numberline {III}JUSTIFICACIÓN}{13}{section.3}%
+\contentsline {section}{\numberline {IV}OBJETIVOS}{14}{section.4}%
+\contentsline {subsection}{\numberline {A}Objetivo general}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {B}Objetivos específicos}{14}{subsection.4.2}%
+\contentsline {section}{\numberline {V}MARCO REFERENCIAL}{15}{section.5}%
+\contentsline {subsection}{\numberline {A}Antecedentes}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {B}Marco teórico}{17}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {1}Sistemas de préstamo en bibliotecas}{17}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {2}Ventajas de los sistemas de Gestión de Biblioteca}{17}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {3}Tecnologías aplicadas en bibliotecas para el préstamo de libros}{17}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {4}Tecnologías utilizadas en sistemas de autopréstamo}{17}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5}Importancia del desarrollo de apps en la gestión bibliotecaria}{18}{subsubsection.5.2.5}%
+\contentsline {subsection}{\numberline {C}Marco conceptual}{18}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {1}Lógica de Negocio: }{18}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {2}Tecnologías Involucradas:}{22}{subsubsection.5.3.2}%
+\contentsline {subsection}{\numberline {D}Marco Tecnológico}{25}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {1}Diseño y desarrollo de aplicaciones para Android: }{25}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {2}Tecnologías utilizadas en el desarrollo de la aplicación: }{25}{subsubsection.5.4.2}%
+\contentsline {paragraph}{\numberline {a}\textbf {Flutter y Dart}}{25}{paragraph.5.4.2.1}%
+\contentsline {paragraph}{\numberline {b}\textbf {Node.js y Express}}{26}{paragraph.5.4.2.2}%
+\contentsline {paragraph}{\numberline {c}\textbf {GitHub: Control de versiones y colaboración en el desarrollo} }{26}{paragraph.5.4.2.3}%
+\contentsline {subsection}{\numberline {E}Marco Institucional}{26}{subsection.5.5}%
+\contentsline {section}{\numberline {VI}METODOLOGÍA}{28}{section.6}%
+\contentsline {subsection}{\numberline {A}Implementación del marco de Trabajo Scrum}{29}{subsection.6.1}%
+\contentsline {section}{\numberline {VII}PROPIEDAD INTELECTUAL}{30}{section.7}%
+\contentsline {section}{\numberline {VIII}CRONOGRAMA DE ACTIVIDADES}{31}{section.8}%
+\contentsline {section}{\numberline {IX}PRESUPUESTO}{32}{section.9}%
+\contentsline {section}{\numberline {X}RESULTADOS}{33}{section.10}%
+\contentsline {subsection}{\numberline {A}Primera Fase: Planificación}{33}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {1}Identificar las necesidades:}{33}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {2} Planteamiento de las historias de usuario:}{34}{subsubsection.10.1.2}%
+\contentsline {subsubsection}{\numberline {3} Planteamiento de los requerimientos del sistema:}{34}{subsubsection.10.1.3}%
+\contentsline {subsection}{\numberline {B}Segunda Fase Diseño}{34}{subsection.10.2}%
+\contentsline {subsubsection}{\numberline {1}Diseño inicial de UX del sistema:}{34}{subsubsection.10.2.1}%
+\contentsline {section}{\numberline {XI}DISCUSIÓN}{37}{section.11}%
+\contentsline {section}{\numberline {XII}CONCLUSIONES}{38}{section.12}%
+\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{39}{section.13}%
+\contentsline {section}{REFERENCIAS}{42}{section.13}%
+\contentsline {section}{\numberline {A}ANEXOS}{43}{appendix.Alph1}%
+\contentsline {section}{\numberline {B}ANEXOS}{52}{appendix.Alph2}%
+\contentsfinish 
