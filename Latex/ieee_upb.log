@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.19)  2 SEP 2025 20:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.19)  3 SEP 2025 02:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -823,7 +823,7 @@ LaTeX Font Warning: Font shape `T1/pcr/m/In' undefined
 
 Package layouts Warning: Layout scale set to 0.5 on input line 13.
 
-<img/upb_logo.png, id=158, 72.27pt x 36.135pt>
+<img/upb_logo.png, id=170, 72.27pt x 36.135pt>
 File: img/upb_logo.png Graphic file (type png)
 <use img/upb_logo.png>
 Package pdftex.def Info: img/upb_logo.png  used on input line 20.
@@ -912,7 +912,7 @@ LaTeX Info: Redefining \% on input line 1.
 [17]
 
 [18]
-<img/DFpasosPrestamo.png, id=432, 3970.835pt x 4291.03125pt>
+<img/DFpasosPrestamo.png, id=471, 3970.835pt x 4291.03125pt>
 File: img/DFpasosPrestamo.png Graphic file (type png)
 <use img/DFpasosPrestamo.png>
 Package pdftex.def Info: img/DFpasosPrestamo.png  used on input line 276.
@@ -922,7 +922,7 @@ Package pdftex.def Info: img/DFpasosPrestamo.png  used on input line 276.
 [19]
 
 [20 <./img/DFpasosPrestamo.png>]
-<img/DFpasosAutoPrestamo.png, id=443, 2269.47874pt x 3167.835pt>
+<img/DFpasosAutoPrestamo.png, id=482, 2269.47874pt x 3167.835pt>
 File: img/DFpasosAutoPrestamo.png Graphic file (type png)
 <use img/DFpasosAutoPrestamo.png>
 Package pdftex.def Info: img/DFpasosAutoPrestamo.png  used on input line 289.
@@ -953,7 +953,7 @@ Overfull \hbox (4.83163pt too wide) in paragraph at lines 339--346
 [29]
 
 [30]
-<img/cronograma.png, id=529, 1046.10825pt x 227.04825pt>
+<img/cronograma.png, id=568, 1046.10825pt x 227.04825pt>
 File: img/cronograma.png Graphic file (type png)
 <use img/cronograma.png>
 Package pdftex.def Info: img/cronograma.png  used on input line 448.
@@ -961,7 +961,7 @@ Package pdftex.def Info: img/cronograma.png  used on input line 448.
 
 
 [31 <./img/cronograma.png>]
-<img/p.png, id=536, 721.4955pt x 383.031pt>
+<img/p.png, id=575, 721.4955pt x 383.031pt>
 File: img/p.png Graphic file (type png)
 <use img/p.png>
 Package pdftex.def Info: img/p.png  used on input line 460.
@@ -969,7 +969,7 @@ Package pdftex.def Info: img/p.png  used on input line 460.
 
 
 [32 <./img/p.png>]
-<img/necesidadesAutoprestamo.png, id=543, 430.60875pt x 300.3722pt>
+<img/necesidadesAutoprestamo.png, id=582, 430.60875pt x 300.3722pt>
 File: img/necesidadesAutoprestamo.png Graphic file (type png)
 <use img/necesidadesAutoprestamo.png>
 Package pdftex.def Info: img/necesidadesAutoprestamo.png  used on input line 475.
@@ -977,65 +977,97 @@ Package pdftex.def Info: img/necesidadesAutoprestamo.png  used on input line 475
 
 
 [33 <./img/necesidadesAutoprestamo.png>]
-<img/diseñoUXuno.png, id=557, 379.4175pt x 266.79675pt>
+<img/diagramaCasosdeUso.png, id=590, 678.73575pt x 473.3685pt>
+File: img/diagramaCasosdeUso.png Graphic file (type png)
+<use img/diagramaCasosdeUso.png>
+Package pdftex.def Info: img/diagramaCasosdeUso.png  used on input line 498.
+(pdftex.def)             Requested size: 330.42041pt x 230.44298pt.
+
+
+[34 <./img/diagramaCasosdeUso.png>]
+<img/productBacklog.png, id=600, 961.79324pt x 462.528pt>
+File: img/productBacklog.png Graphic file (type png)
+<use img/productBacklog.png>
+Package pdftex.def Info: img/productBacklog.png  used on input line 546.
+(pdftex.def)             Requested size: 472.03122pt x 227.00063pt.
+
+
+[35]
+<img/diagramaEntidadRelacion.png, id=607, 707.64375pt x 432.4155pt>
+File: img/diagramaEntidadRelacion.png Graphic file (type png)
+<use img/diagramaEntidadRelacion.png>
+Package pdftex.def Info: img/diagramaEntidadRelacion.png  used on input line 561.
+(pdftex.def)             Requested size: 424.82521pt x 259.59645pt.
+
+
+[36 <./img/productBacklog.png>]
+<img/diagramaActividadesSolicitud.png, id=613, 443.85825pt x 543.83176pt>
+File: img/diagramaActividadesSolicitud.png Graphic file (type png)
+<use img/diagramaActividadesSolicitud.png>
+Package pdftex.def Info: img/diagramaActividadesSolicitud.png  used on input line 571.
+(pdftex.def)             Requested size: 377.6264pt x 462.69069pt.
+
+
+[37 <./img/diagramaEntidadRelacion.png>]
+<img/diseñoUXuno.png, id=625, 379.4175pt x 266.79675pt>
 File: img/diseñoUXuno.png Graphic file (type png)
 <use img/diseñoUXuno.png>
-Package pdftex.def Info: img/diseñoUXuno.png  used on input line 527.
+Package pdftex.def Info: img/diseñoUXuno.png  used on input line 583.
 (pdftex.def)             Requested size: 283.2216pt x 199.15666pt.
 
 
-[34]
-<img/diseñoUXdos.png, id=563, 383.63326pt x 275.22826pt>
+[38 <./img/diagramaActividadesSolicitud.png>]
+<img/diseñoUXdos.png, id=631, 383.63326pt x 275.22826pt>
 File: img/diseñoUXdos.png Graphic file (type png)
 <use img/diseñoUXdos.png>
-Package pdftex.def Info: img/diseñoUXdos.png  used on input line 535.
+Package pdftex.def Info: img/diseñoUXdos.png  used on input line 591.
 (pdftex.def)             Requested size: 330.42041pt x 237.05286pt.
-<img/diseñoUXtres.png, id=564, 268.00125pt x 324.0105pt>
+<img/diseñoUXtres.png, id=632, 268.00125pt x 324.0105pt>
 File: img/diseñoUXtres.png Graphic file (type png)
 <use img/diseñoUXtres.png>
-Package pdftex.def Info: img/diseñoUXtres.png  used on input line 543.
+Package pdftex.def Info: img/diseñoUXtres.png  used on input line 599.
 (pdftex.def)             Requested size: 236.01561pt x 285.33777pt.
 
 
-[35 <./img/diseñoUXuno.png> <./img/diseñoUXdos.png>]
-<img/diseñoUXcuatro.png, id=571, 443.256pt x 290.2845pt>
+[39 <./img/diseñoUXuno.png> <./img/diseñoUXdos.png>]
+<img/diseñoUXcuatro.png, id=639, 443.256pt x 290.2845pt>
 File: img/diseñoUXcuatro.png Graphic file (type png)
 <use img/diseñoUXcuatro.png>
-Package pdftex.def Info: img/diseñoUXcuatro.png  used on input line 551.
+Package pdftex.def Info: img/diseñoUXcuatro.png  used on input line 607.
 (pdftex.def)             Requested size: 330.42041pt x 216.38844pt.
-<img/dieñoUXcinco.png, id=572, 455.90324pt x 299.9205pt>
+<img/dieñoUXcinco.png, id=640, 455.90324pt x 299.9205pt>
 File: img/dieñoUXcinco.png Graphic file (type png)
 <use img/dieñoUXcinco.png>
-Package pdftex.def Info: img/dieñoUXcinco.png  used on input line 559.
+Package pdftex.def Info: img/dieñoUXcinco.png  used on input line 615.
 (pdftex.def)             Requested size: 330.42041pt x 217.37958pt.
 
 
-[36 <./img/diseñoUXtres.png> <./img/diseñoUXcuatro.png>]
+[40 <./img/diseñoUXtres.png> <./img/diseñoUXcuatro.png>]
 
-[37 <./img/dieñoUXcinco.png>]
+[41 <./img/dieñoUXcinco.png>]
 
-[38]
+[42]
 
-[39]
+[43]
 
-[40] (ieee_upb.bbl
+[44] (ieee_upb.bbl
 
-[41]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 111--114
 []\T1/ptm/m/n/12 IBM, ``Mo-bi-le ap-pli-ca-tion de-ve-lop-ment,'' [][]$https : / / www . ibm . com / es-[]es / topics /
  []
 
 
 
-[42])
+[46])
 
-[43]
+[47]
 
 pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=626, 614.295pt x 794.97pt>
+<pdfs/historias_usuario.pdf, id=693, 614.295pt x 794.97pt>
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf>
-Package pdftex.def Info: pdfs/historias_usuario.pdf  used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf  used on input line 656.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1043,895 +1075,895 @@ pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: fou
 
 
 pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=628, page=1, 614.295pt x 794.97pt>
+<pdfs/historias_usuario.pdf, id=695, page=1, 614.295pt x 794.97pt>
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf, page 1>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 656.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf, page 1>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-[44]
+[48]
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf, page 1>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf, page 1>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
 <use pdfs/historias_usuario.pdf, page 1>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[45
-
- <./pdfs/historias_usuario.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=665, page=2, 614.295pt x 794.97pt>
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 2>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 2>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 2>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[46
-
- <./pdfs/historias_usuario.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=675, page=3, 614.295pt x 794.97pt>
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 3>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 3>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 3>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[47
-
- <./pdfs/historias_usuario.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=681, page=4, 614.295pt x 794.97pt>
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 4>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 4>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 4>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[48
-
- <./pdfs/historias_usuario.pdf>]
-
-pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=687, page=5, 614.295pt x 794.97pt>
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 5>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 5>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 600.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-
-
-File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 5>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 600.
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page1 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [49
 
  <./pdfs/historias_usuario.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=694, page=6, 614.295pt x 794.97pt>
+<pdfs/historias_usuario.pdf, id=733, page=2, 614.295pt x 794.97pt>
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 6>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 2>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 6>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 2>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 6>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 2>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page2 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [50
 
  <./pdfs/historias_usuario.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=700, page=7, 614.295pt x 794.97pt>
+<pdfs/historias_usuario.pdf, id=743, page=3, 614.295pt x 794.97pt>
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 7>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 3>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 7>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 3>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 7>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 3>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page3 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [51
 
  <./pdfs/historias_usuario.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/historias_usuario.pdf, id=714, page=8, 614.295pt x 794.97pt>
+<pdfs/historias_usuario.pdf, id=749, page=4, 614.295pt x 794.97pt>
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 8>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 4>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 8>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 4>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/historias_usuario.pdf Graphic file (type pdf)
-<use pdfs/historias_usuario.pdf, page 8>
-Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 600.
+<use pdfs/historias_usuario.pdf, page 4>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page4 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [52
 
  <./pdfs/historias_usuario.pdf>]
 
-pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=720, 614.295pt x 794.97pt>
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf  used on input line 612.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=722, page=1, 614.295pt x 794.97pt>
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 1>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 612.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 1>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 612.
+pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/historias_usuario.pdf, id=755, page=5, 614.295pt x 794.97pt>
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 5>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 5>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-[53]
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 1>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 5>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page5 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 1>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 612.
+[53
+
+ <./pdfs/historias_usuario.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/historias_usuario.pdf, id=761, page=6, 614.295pt x 794.97pt>
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 6>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 656.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 6>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 1>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 6>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page6 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [54
 
- <./pdfs/Requerimientos2.pdf>]
+ <./pdfs/historias_usuario.pdf>]
 
-pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=759, page=2, 614.295pt x 794.97pt>
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 2>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 612.
+pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/historias_usuario.pdf, id=767, page=7, 614.295pt x 794.97pt>
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 7>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 2>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 7>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 2>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 7>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page7 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [55
 
- <./pdfs/Requerimientos2.pdf>]
+ <./pdfs/historias_usuario.pdf>]
 
-pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=766, page=3, 614.295pt x 794.97pt>
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 3>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 612.
+pdfTeX warning: pdflatex (file ./pdfs/historias_usuario.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/historias_usuario.pdf, id=782, page=8, 614.295pt x 794.97pt>
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 8>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 3>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 8>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 3>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 612.
+File: pdfs/historias_usuario.pdf Graphic file (type pdf)
+<use pdfs/historias_usuario.pdf, page 8>
+Package pdftex.def Info: pdfs/historias_usuario.pdf , page8 used on input line 656.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [56
 
- <./pdfs/Requerimientos2.pdf>]
+ <./pdfs/historias_usuario.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=787, page=4, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=788, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 4>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 612.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 4>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 612.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+<use pdfs/Requerimientos2.pdf>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf  used on input line 668.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-
-File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 4>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 612.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[57
-
- <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=805, page=5, 614.295pt x 794.97pt>
+
+
+pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/Requerimientos2.pdf, id=790, page=1, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 5>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 1>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 668.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 1>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+[57]
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 1>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 5>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 1>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 5>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 1>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page1 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [58
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=823, page=6, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=827, page=2, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 6>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 2>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 6>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 2>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 6>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 2>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page2 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [59
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=829, page=7, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=833, page=3, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 7>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 3>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 7>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 3>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 7>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 3>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page3 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [60
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=835, page=8, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=854, page=4, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 8>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 4>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 8>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 4>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 8>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 4>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page4 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [61
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=846, page=9, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=873, page=5, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 9>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 5>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 9>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 5>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 9>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 5>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page5 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [62
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=857, page=10, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=891, page=6, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 10>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 6>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 10>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 6>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 10>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 6>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page6 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [63
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=863, page=11, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=897, page=7, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 11>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 7>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 11>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 7>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 11>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 7>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page7 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [64
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=869, page=12, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=903, page=8, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 12>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 8>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 12>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 8>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 12>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 8>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page8 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [65
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=875, page=13, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=913, page=9, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 13>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 9>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 13>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 9>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 13>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 9>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page9 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [66
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=881, page=14, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=924, page=10, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 14>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 10>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 14>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 10>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 14>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 10>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page10 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [67
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=889, page=15, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=931, page=11, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 15>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 11>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 15>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 11>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 15>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 11>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page11 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [68
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=895, page=16, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=937, page=12, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 16>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 12>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 16>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 12>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 16>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 12>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page12 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [69
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=901, page=17, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=943, page=13, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 17>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 13>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 17>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 13>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 17>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 13>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page13 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [70
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=907, page=18, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=949, page=14, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 18>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 14>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 18>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 14>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 18>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 14>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page14 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [71
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=913, page=19, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=956, page=15, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 19>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 15>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 19>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 15>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 19>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 15>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page15 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [72
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=919, page=20, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=962, page=16, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 20>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 16>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 20>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 16>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 20>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 16>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page16 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [73
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=927, page=21, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=969, page=17, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 21>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 17>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 21>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 17>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 21>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 17>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page17 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [74
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=933, page=22, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=975, page=18, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 22>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 18>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 22>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 18>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 22>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 18>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page18 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [75
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=939, page=23, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=981, page=19, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 23>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 19>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 23>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 19>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 23>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 19>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page19 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [76
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=946, page=24, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=987, page=20, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 24>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 20>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 24>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 20>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 24>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 20>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page20 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [77
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=960, page=25, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=994, page=21, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 25>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 21>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 25>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 21>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 25>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 21>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page21 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [78
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=967, page=26, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1000, page=22, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 26>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 22>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 26>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 22>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 26>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 22>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page22 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [79
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=974, page=27, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1007, page=23, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 27>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 23>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 27>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 23>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 27>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 23>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page23 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [80
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=981, page=28, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1014, page=24, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 28>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 24>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 28>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 24>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 28>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 24>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page24 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [81
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=987, page=29, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1028, page=25, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 29>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 25>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 29>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 25>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 29>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 25>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page25 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [82
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=994, page=30, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1035, page=26, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 30>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 26>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 30>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 26>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 30>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 26>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page26 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [83
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=1000, page=31, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1041, page=27, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 31>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 27>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 31>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 27>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 31>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 27>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page27 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [84
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=1007, page=32, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1048, page=28, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 32>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 28>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 32>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 28>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 32>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 28>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page28 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [85
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=1014, page=33, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1055, page=29, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 33>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 29>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 33>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 29>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 33>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 29>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page29 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [86
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=1020, page=34, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1062, page=30, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 34>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 30>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 34>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 30>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 34>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 30>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page30 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [87
 
  <./pdfs/Requerimientos2.pdf>]
 
 pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<pdfs/Requerimientos2.pdf, id=1026, page=35, 614.295pt x 794.97pt>
+<pdfs/Requerimientos2.pdf, id=1068, page=31, 614.295pt x 794.97pt>
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 35>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 31>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 35>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 31>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 
 File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
-<use pdfs/Requerimientos2.pdf, page 35>
-Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 612.
+<use pdfs/Requerimientos2.pdf, page 31>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page31 used on input line 668.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [88
+
+ <./pdfs/Requerimientos2.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/Requerimientos2.pdf, id=1075, page=32, 614.295pt x 794.97pt>
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 32>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 32>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 32>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page32 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[89
+
+ <./pdfs/Requerimientos2.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/Requerimientos2.pdf, id=1081, page=33, 614.295pt x 794.97pt>
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 33>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 33>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 33>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page33 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[90
+
+ <./pdfs/Requerimientos2.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/Requerimientos2.pdf, id=1087, page=34, 614.295pt x 794.97pt>
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 34>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 34>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 34>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page34 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[91
+
+ <./pdfs/Requerimientos2.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdfs/Requerimientos2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdfs/Requerimientos2.pdf, id=1094, page=35, 614.295pt x 794.97pt>
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 35>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 35>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+
+File: pdfs/Requerimientos2.pdf Graphic file (type pdf)
+<use pdfs/Requerimientos2.pdf, page 35>
+Package pdftex.def Info: pdfs/Requerimientos2.pdf , page35 used on input line 668.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[92
 
  <./pdfs/Requerimientos2.pdf>] (ieee_upb.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -1946,20 +1978,20 @@ L3 programming layer <2025-07-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `ieee_upb.out' has not changed.
-(rerunfilecheck)             Checksum: 1797DEF951DEBB6F1E9314669357531E;7423.
+(rerunfilecheck)             Checksum: A170B79784874146DEE964CC59B3CB23;8177.
  ) 
 Here is how much of TeX's memory you used:
- 18965 strings out of 468134
- 311142 string characters out of 5430740
- 848936 words of memory out of 5000000
- 47107 multiletter control sequences out of 15000+600000
+ 19012 strings out of 468134
+ 312444 string characters out of 5430740
+ 849176 words of memory out of 5000000
+ 47143 multiletter control sequences out of 15000+600000
  645430 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,17n,93p,947b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ieee_upb.pdf (88 pages, 2279882 bytes).
+Output written on ieee_upb.pdf (92 pages, 2587269 bytes).
 PDF statistics:
- 1091 PDF objects out of 1200 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 603 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1162 PDF objects out of 1200 (max. 8388607)
+ 184 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

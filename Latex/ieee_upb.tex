@@ -480,19 +480,40 @@ El proceso actual de préstamo de la Biblioteca Benedicto XVI se realiza de form
 Para identificar cada una de las funcionalidades del aplicativo móvil, se organizaron reuniones periódicas con el cliente, en donde se abordaron cada una de las necesidades expuestas en la \textit{figura \ref{fig:excelNecesidades}}, con el objetivo de resolver las inquietudes respecto a ellas y determinar las características de cada módulo del aplicativo.
 \vspace{0.3 cm}
 
-Se determinó que la aplicación móvil únicamente tendría la funcionalidad de prestar libros, y no otros materiales (por ejemplo, portátiles), porque Jefatura prefiere que el préstamo de ese tipo de recursos siga realizándose de manera manual y con un bibliotecario de por medio, principalmente para llevar un control más riguroso.
+Se determinó que la aplicación móvil únicamente tendría la funcionalidad de prestar libros, y no otro tipo de materiales (por ejemplo, portátiles), debido a que por parte de Jefatura se prefiere que el préstamo de ese tipo de recursos se siga realizando de manera manual y con un bibliotecario de por medio, principalmente para llevar un control más riguroso. También como medida de control y seguridad, se desarrollará una aplicación de escritorio, en donde el bibliotecario escanea el código del libro y verifica que este se encuentre prestado, este proceso se realiza en la salidad de biblioteca
 \vspace{0.3 cm}
 
 Por otra parte, la funcionalidad de registro no se implementará en el aplicativo móvil; se seguirá realizando de forma manual y presencial en la biblioteca, ya que el sistema Alejandría no cuenta con un mecanismo para comprobar la autenticidad de los datos que proporcione el usuario, lo que podría dar lugar a la creación de cuentas falsas.
 \vspace{0.3 cm}
 
- Otra funcionalidad es un sistema automatizado de notificación de renovación de libros. Actualmente, este proceso se realiza de forma manual: la jefa de biblioteca o el administrativo encargado ejecuta una consulta SQL directamente sobre la base de datos para identificar a los usuarios cuyos préstamos están por vencer y, a continuación, les envía un correo. 
+ Otra funcionalidad es un sistema automatizado de notificaciones, en donde tres días antes y un día antes a vencerse el préstamo se le notificara al usuario para que realice la renovación del libro o lo entregue. Actualmente, este proceso se realiza de forma manual; la jefa de biblioteca o el administrativo encargado ejecuta una consulta SQL directamente sobre la base de datos para identificar a los usuarios cuyos préstamos están por vencer, para posteriormente enviar un correo. 
+\vspace{0.3 cm}
+
+ Por último, el aplicativo movil contará con un apartado en donde el usuario pueda consultar los préstamos activos vigentes, allí podrá ver información detallada sobre cada préstamo, incluyendo fechas de vencimiento y los días restantes de prestamo.
+ \vspace{0.3 cm}
+
+ El siguiente diagrama, que se observa en la figura \ref{fig:diagramaCasosdeUso} de casos de uso representa todas las funcionalidades del sistema de Autopréstamo de libros desde la perspectiva del usuario, tanto el que utiliza el aplicativo móvil como el bibliotecario que emplea la aplicación de escritorio para verificar los préstamos realizados. \vspace{0.3 cm}
+  \begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/diagramaCasosdeUso.png}
+	\vspace{-1mm}
+	\caption[Diagrama General de Casos de Uso]{\textit{Se representan todas las funcionalidades del sistema de Autopréstamo de libros.}}
+	\label{fig:diagramaCasosdeUso} 
+\end{figure}
 
 \subsubsection{ Planteamiento de las historias de usuario:}
- A partir de las reuniones y el Excel se  definieron las historias de usuario, se pueden visualizar en el anexo \ref{anexos:historias}, en donde se expresaron cada una de las necesidades del cliente.  Su realización fue supervisada por el director del proyecto y posteriormente aprobadas por jefatura de biblioteca. 
+ A partir de las reuniones y el Excel realizado por parte de jefatura de biblioteca, se  definieron las historias de usuario, se pueden visualizar a más detalle en el anexo \ref{anexos:historias}, en donde se expresaron cada una de las necesidades del cliente.  Su realización fue supervisada por el director del proyecto y posteriormente aprobadas por jefatura de biblioteca. 
+ \vspace{0.3 cm}
+
+Se agruparon las historias de usuario en tres épicas: Módulo de Auto-Préstamo, Módulo de Renovación y Módulo de Lista de Préstamos. A continuación, se presenta un resumen de las historias de usuario organizadas por módulos en la tabla \ref{tabla:2}.
+\stepcounter{mytablecounter} % Incrementa el contador personalizado
+\addcontentsline{lot}{table}{\protect\numberline{\themytablecounter} Historias de Usuario}
+
 
  \begin{table}[H]
 \centering
+\caption[Nombre en la lista de tablas]{\textbf{Resumen de las Historias de Usuario}}
+    \label{tabla:2}
 \resizebox{\textwidth}{!}{%
  \begin{tabular}{|c|c|c|c|c|}
     \hline 
@@ -517,7 +538,42 @@ Por otra parte, la funcionalidad de registro no se implementará en el aplicativ
 \subsubsection{ Planteamiento de los requerimientos del sistema:}
  Después de establecer las historias de usuario, se realizo el documento de requerimientos de software, el cual se encuentra adjunto en el anexo \ref{anexos:requerimientos}. El documento fue revisado por el director del proyecto de grado y aprobado por jefatura de biblioteca.
 
+\subsubsection{Definición del Backlog:}
+Como herramienta de gestión del proyecto se utilizó Jira, en donde se creó el Product Backlog, figura \ref{fig:backlog}, en el cual se organizaron y priorizaron las historias de usuario previamente definidas, siendo las historias de usuario relacionadas con el módulo de autopréstamo las de mayor prioridad, seguidas por las del módulo de renovación y finalmente las del módulo de lista de préstamos.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/productBacklog.png}
+    \caption[Product Backlog]{Product Backlog}
+    \label{fig:backlog}
+\end{figure}
+
 \subsection{Segunda Fase Diseño}
+
+\subsubsection{Análisis de la base de datos de biblioteca}
+Actualmente, las tablas de la base de datos de la biblioteca Benedicto XVI no cuenta con relaciones de llaves foráneas entre ellas; dichas relaciones se establecen de manera lógica a través de sus llaves primarias.  Por lo anterior, el equipo de desarrollo optó por realizar un diagrama-entidad relación partiendo del análisis de cada una de las tablas y sus respectivos registros.
+\vspace{0.3 cm}
+
+Como resultado inicial se obtuvo un diagrama que contenía todas las tablas; sin embargo, para facilitar el desarrollo, se decidió eliminar tablas que no estaban relacionas con el proyecto o con información obsoleta. El diagrama entidad-relacion resultante se puede observar en la figura \ref{fig:ERD}.
+
+ \begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.9\linewidth]{img/diagramaEntidadRelacion.png}
+	\vspace{-1mm}
+	\caption[Diagrama Entidad-Relación]{\textit{Diagrama de la tablas utilizadas en el proyecto.}}
+	\label{fig:ERD} 
+\end{figure}
+
+\subsubsection{Diseño del Módulo de Autopréstamo}
+Aqui se que va ir la parte en donde para realizar el autoprestamo existen dos procesos uno en donde se le valida al usuario que puede realizar el prestamo y el otro como tal cuando se realiza el prestamo, ya tengo el diagrama de actvidades para las validaciones, ahora em falta hacer el otro paa demostrar como calculo los dias del prestamo.
+ \begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.8\linewidth]{img/diagramaActividadesSolicitud.png}
+	\vspace{-1mm}
+	\caption[Diagrama de Actividades para solicitar un préstamo]{\textit{Diagrama de actividades para solicitar un préstamo.}}
+	\label{fig:actividadesSolPrestamo} 
+\end{figure}
+
 
 \subsubsection{Diseño inicial de UX del sistema:}
  Se presentó al cliente un diseño inicial del sistema, como se puede ver en las figuras \ref{fig:UX1}, \ref{fig:UX2}, \ref{fig:UX3}. Sin embargo, para seguir con los colores institucionales el diseñador de la universidad sugirió unos cambios en la paleta, pero siguiendo la estructura inicial de la aplicación, como se observan en las figuras \ref{fig:UX4}, \ref{fig:UX5}.
