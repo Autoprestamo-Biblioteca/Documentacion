@@ -10,7 +10,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "martinez2021aplicación"
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
@@ -22,45 +21,45 @@ Warning--empty journal in gomez2015biblioteca
 Warning--empty journal in schwaber2020guia
 
 Done.
-You've used 30 entries,
+You've used 31 entries,
             4087 wiz_defined-function locations,
-            993 strings with 13362 characters,
-and the built_in function-call counts, 17318 in all, are:
-= -- 1442
-> -- 375
-< -- 107
-+ -- 197
-- -- 70
-* -- 795
-:= -- 2858
-add.period$ -- 59
-call.type$ -- 30
-change.case$ -- 30
+            997 strings with 13559 characters,
+and the built_in function-call counts, 17837 in all, are:
+= -- 1487
+> -- 388
+< -- 109
++ -- 203
+- -- 73
+* -- 822
+:= -- 2951
+add.period$ -- 61
+call.type$ -- 31
+change.case$ -- 31
 chr.to.int$ -- 231
-cite$ -- 36
-duplicate$ -- 1292
-empty$ -- 1391
-format.name$ -- 90
-if$ -- 3936
+cite$ -- 37
+duplicate$ -- 1336
+empty$ -- 1432
+format.name$ -- 94
+if$ -- 4052
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 240
-newline$ -- 127
-num.names$ -- 30
-pop$ -- 569
+int.to.str$ -- 31
+missing$ -- 249
+newline$ -- 130
+num.names$ -- 31
+pop$ -- 587
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1352
+skip$ -- 1393
 stack$ -- 0
-substring$ -- 578
-swap$ -- 969
-text.length$ -- 30
+substring$ -- 579
+swap$ -- 1000
+text.length$ -- 32
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 30
+type$ -- 31
 warning$ -- 6
-while$ -- 71
-width$ -- 32
-write$ -- 307
-(There were 7 warnings)
+while$ -- 72
+width$ -- 33
+write$ -- 317
+(There were 6 warnings)

@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1755616869.76034 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1755617022.42937 0
+["bibtex ieee_upb"] 1756861425.34062 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1756861721.73975 0
   "./bibliography.bib" 1755616864 8999 265bdcac05edf0b536cf070b70c6b799 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1755617021 11129 e4900f8af9a2571ab4dcecf0f9e96b67 "pdflatex"
+  "ieee_upb.aux" 1756861720 11169 d851a0387ecfdd77e52345a28f6c7a9d "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1755617017.66543 "c:/Autoprestamo/Documentaciom/TESIS_SEGUNDA_ENTREGA/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1755617022.43004 0
-  "C:/Users/alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1755615962 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1756861717.47428 "c:/Autoprestamo/Documentaciom/TESIS_SEGUNDA_ENTREGA/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1756861721.74058 0
+  "C:/Users/alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1756859266 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/alexa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1755615957 13257295 5827867f1ee6f78b6b27383d2f2b6751 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/courier/pcrb8t.tfm" 1136765053 1384 87406e4336af44af883a035f17f319d9 ""
@@ -128,6 +128,7 @@
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1741168182 77051 be68720e5402397a830abb9eed5a2cb4 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstpatch.sty" 1741168182 353 9024412f43e92cd5b21fe9ded82d0610 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/makecell/makecell.sty" 1250677107 16155 2dd7dde1ec1c2a3d0c85bc3b273e04d8 ""
+  "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty" 1731767677 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nometadata.sty" 1668505912 6572 ea530fbbe537629fd97736d33babc07d ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty" 1668505912 2224 1230ab76aa62221ccbd90bca8c8c015e ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.sty" 1753308519 56631 520872fa620d78de49638b8237adcdce ""
@@ -147,16 +148,16 @@
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1749468414 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Autoprestamo/Documentaciom/TESIS_SEGUNDA_ENTREGA/ieee_upb.tex" 1755617016 53885 ce13552f70b0666156bcb83bbdf967b4 ""
-  "ieee_upb.aux" 1755617021 11129 e4900f8af9a2571ab4dcecf0f9e96b67 "pdflatex"
-  "ieee_upb.bbl" 1755616869 8181 8a0bcb0d65b4b0fddc2d654861366cc6 "bibtex ieee_upb"
+  "c:/Autoprestamo/Documentaciom/TESIS_SEGUNDA_ENTREGA/ieee_upb.tex" 1756861716 54776 54dd45f5db2bd787c6b741fbcf21db9d ""
+  "ieee_upb.aux" 1756861720 11169 d851a0387ecfdd77e52345a28f6c7a9d "pdflatex"
+  "ieee_upb.bbl" 1756861425 8416 aaa67249584c4d2602226cc7aa7d4bb6 "bibtex ieee_upb"
   "ieee_upb.cls" 1755616556 9047 6180986f66607763ef3d814fffb69f98 ""
-  "ieee_upb.lof" 1755617021 1244 05fc0a818a46530dff18b96059f78de0 "pdflatex"
-  "ieee_upb.lol" 1755617018 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "ieee_upb.lot" 1755617021 117 f9048de60eb814baae9b13b105404531 "pdflatex"
-  "ieee_upb.out" 1755617021 7423 1797def951debb6f1e9314669357531e "pdflatex"
-  "ieee_upb.tex" 1755617016 53885 ce13552f70b0666156bcb83bbdf967b4 ""
-  "ieee_upb.toc" 1755617021 3907 ee5356f35ac157d0f609b0ae05c713a0 "pdflatex"
+  "ieee_upb.lof" 1756861720 1245 8f9fea17cf3d163ae26b267093cc0a6d "pdflatex"
+  "ieee_upb.lol" 1756861718 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ieee_upb.lot" 1756861720 117 f9048de60eb814baae9b13b105404531 "pdflatex"
+  "ieee_upb.out" 1756861720 7423 1797def951debb6f1e9314669357531e "pdflatex"
+  "ieee_upb.tex" 1756861716 54776 54dd45f5db2bd787c6b741fbcf21db9d ""
+  "ieee_upb.toc" 1756861720 3907 d03f67d62366f41c89a139415ac21906 "pdflatex"
   "img/DFpasosAutoPrestamo.png" 1755615439 174739 81425cb29b5c295606b79441486c38d3 ""
   "img/DFpasosPrestamo.png" 1755615439 241736 4f61e44ec0ddf19461732ecac7b74e56 ""
   "img/cronograma.png" 1755615439 28060 114ef4346761c056f7f3af285ba619a7 ""

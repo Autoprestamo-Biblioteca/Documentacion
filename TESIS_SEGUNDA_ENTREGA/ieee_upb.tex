@@ -3,6 +3,8 @@
 \usepackage{layouts}
 \usepackage{caption}
 \usepackage{float}
+\usepackage{multirow}
+
 
 % Información del documento (sin cambios)
 \title{APLICATIVO MÓVIL PARA EL AUTOPRÉSTAMO DE LIBROS EN LA BIBLIOTECA BENEDICTO XVI}
@@ -197,10 +199,10 @@ El artículo \textit{Analysis of user satisfaction on self-loan services in Isla
 Este artículo menciona la relación existente entre la satisfacción del usuario y la implementación de tecnologías en bibliotecas académicas, en donde el éxito de estas depende de la facilidad que tenga el usuario de interactuar con ellas y que su uso no dependa un conocimiento técnico en tecnologías. 
 \vspace{0.3 cm}
 
-Por otro lado, el artículo \textit{Aplicación móvil “Biblioteca UNAM”. Llévala en tu bolsillo }\cite{martinez2021aplicación} describe la implementación de una aplicación móvil que tiene como objetivo brindar acceso a los servicios bibliotecarios de la Universidad Nacional Autónoma de México (UNAM). En donde, los usuarios a través de la plataforma pueden gestionar el préstamo de libros, consultar catálogos y buscar la disponibilidad de libros a través de su dispositivo móvil. 
+Por otro lado, el artículo \textit{Aplicación móvil “Biblioteca UNAM”. Llévala en tu bolsillo }\cite{martinez2021aplicacion} describe la implementación de una aplicación móvil que tiene como objetivo brindar acceso a los servicios bibliotecarios de la Universidad Nacional Autónoma de México (UNAM). En donde, los usuarios a través de la plataforma pueden gestionar el préstamo de libros, consultar catálogos y buscar la disponibilidad de libros a través de su dispositivo móvil. 
 \vspace{0.3 cm}
 
-El artículo resalta la importancia de la digitalización de las bibliotecas académicas, teniendo en cuenta que, \textit{“proporcionar servicios bibliotecarios por medio de tecnologías de vanguardia a través de dispositivos móviles que ofrecen ventajas en costo, uso y movilidad, que otros no proporcionan”} \cite{martinez2021aplicación}, ayuda a incrementar la satisfacción de los usuarios y optimizar los procesos en la prestación de servicios. 
+El artículo resalta la importancia de la digitalización de las bibliotecas académicas, teniendo en cuenta que, \textit{“proporcionar servicios bibliotecarios por medio de tecnologías de vanguardia a través de dispositivos móviles que ofrecen ventajas en costo, uso y movilidad, que otros no proporcionan”} \cite{martinez2021aplicacion}, ayuda a incrementar la satisfacción de los usuarios y optimizar los procesos en la prestación de servicios. 
 \vspace{0.3 cm}
 
 El trabajo de investigación: \textit{“Sistema de Gestión y control de préstamos de libros en bibliotecas para teléfonos móviles Android”} de la Universidad Carlos III de Madrid , tiene como objetivo principal implementar un sistema que facilite la gestión de préstamo de libros de una forma más sencilla. En este estudio se resalta la importancia de desarrollar nuevas soluciones tecnológicas que estén alineadas con el auge de la tecnología, ya que “\textit{las aplicaciones móviles permiten ofrecer servicios bibliotecarios personalizados y accesibles en cualquier momento y lugar, optimizando así la relación entre los usuarios y las bibliotecas”} \cite{fombellida2012sistema}. De este modo, fomentar el interés de los estudiantes de utilizar los servicios que ofrece la biblioteca.  
@@ -273,7 +275,7 @@ Para una mejor comprensión de la lógica que sustenta este proyecto, a continua
     \centering
     \includegraphics[width=0.9\linewidth]{img/DFpasosPrestamo.png}
     \caption[Préstamo de libros biblioteca Benedicto XVI]{Diagrama de flujo del proceso actual de préstamo de libros}
-    \label{fig:presupuesto}
+    \label{fig:diaFlujoPrestamo}
 \end{figure}
 
 En la Figura 1 se ilustra el flujo de trabajo actual y la lógica de negocio que se sigue en el proceso de préstamo de material bibliográfico. Inicialmente, el usuario consulta en el sistema la disponibilidad del libro y lo ubica dentro de la colección de la Biblioteca Benedicto XVI. Luego, se dirige a la ventanilla de circulación y préstamo, donde entrega el libro al funcionario de la biblioteca.\vspace{0.3 cm}
@@ -488,6 +490,29 @@ Por otra parte, la funcionalidad de registro no se implementará en el aplicativ
 
 \subsubsection{ Planteamiento de las historias de usuario:}
  A partir de las reuniones y el Excel se  definieron las historias de usuario, se pueden visualizar en el anexo \ref{anexos:historias}, en donde se expresaron cada una de las necesidades del cliente.  Su realización fue supervisada por el director del proyecto y posteriormente aprobadas por jefatura de biblioteca. 
+
+ \begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+ \begin{tabular}{|c|c|c|c|c|}
+    \hline 
+    \textbf{ÉPICAS} & \multicolumn{2}{|c|}{\textbf{Modulo de Auto-Préstamo}} &\textbf{Modulo de Renovación} &\textbf{Modulo de Lista de Préstamos }  \\ 
+    \hline
+    \multirow{4}{*}{\textbf{Historias de Usuario}} 
+    & Inicio de Sesión & Recuperar Contraseña & \multirow{2}{*}{Renovar Libros} & \multirow{2}{*}{Mostrar lista de Libros} \\ 
+    \cline{2-3}
+    & Cerrar Sesión & Auto-Prestar Libro &   &  \\
+    \cline{2-5}
+    & Aceptar Préstamo & Cancelar Préstamo &  \multirow{3}{*}{Notificar Renovación} & \multirow{3}{*}{Ver Resumen del Préstamo} \\ 
+    \cline{2-3}
+    & Autorizar Préstamo & Ingresar el Código de Barras &  &  \\
+    \cline{2-3}
+    & \multicolumn{2}{|c|}{Preguntas Frecuentes} & &  \\
+    \hline
+
+ \end{tabular}
+}
+ \end{table}
 
 \subsubsection{ Planteamiento de los requerimientos del sistema:}
  Después de establecer las historias de usuario, se realizo el documento de requerimientos de software, el cual se encuentra adjunto en el anexo \ref{anexos:requerimientos}. El documento fue revisado por el director del proyecto de grado y aprobado por jefatura de biblioteca.

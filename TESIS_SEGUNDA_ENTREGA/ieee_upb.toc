@@ -35,10 +35,10 @@
 \contentsline {subsubsection}{\numberline {3} Planteamiento de los requerimientos del sistema:}{34}{subsubsection.10.1.3}%
 \contentsline {subsection}{\numberline {B}Segunda Fase Diseño}{34}{subsection.10.2}%
 \contentsline {subsubsection}{\numberline {1}Diseño inicial de UX del sistema:}{34}{subsubsection.10.2.1}%
-\contentsline {section}{\numberline {XI}DISCUSIÓN}{37}{section.11}%
-\contentsline {section}{\numberline {XII}CONCLUSIONES}{38}{section.12}%
-\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{39}{section.13}%
-\contentsline {section}{REFERENCIAS}{42}{section.13}%
-\contentsline {section}{\numberline {A}ANEXOS}{43}{appendix.Alph1}%
-\contentsline {section}{\numberline {B}ANEXOS}{52}{appendix.Alph2}%
+\contentsline {section}{\numberline {XI}DISCUSIÓN}{38}{section.11}%
+\contentsline {section}{\numberline {XII}CONCLUSIONES}{39}{section.12}%
+\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{40}{section.13}%
+\contentsline {section}{REFERENCIAS}{43}{section.13}%
+\contentsline {section}{\numberline {A}ANEXOS}{44}{appendix.Alph1}%
+\contentsline {section}{\numberline {B}ANEXOS}{53}{appendix.Alph2}%
 \contentsfinish 
