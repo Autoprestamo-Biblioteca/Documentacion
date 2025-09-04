@@ -4,7 +4,7 @@
 \usepackage{caption}
 \usepackage{float}
 \usepackage{multirow}
-
+\usepackage{msc} 
 
 % Información del documento (sin cambios)
 \title{APLICATIVO MÓVIL PARA EL AUTOPRÉSTAMO DE LIBROS EN LA BIBLIOTECA BENEDICTO XVI}
@@ -569,10 +569,19 @@ En la base de datos Alejandría, cada libro físico perteneciente a la bibliotec
 \vspace{0.3 cm}
 
 El campo \textit{n\_idejemplar} actúa como identificador único de cada ejemplar y es utilizado como clave de referencia en otras tablas del sistema, tales como \textit{biblio\_prestamos} y \textit{biblio\_multas}.
-\vspace{0.3 cm}
+\vspace{0.1 cm}
 
 Adicionalmente, la tabla \textit{biblio\_materiales} concentra la información descriptiva del material bibliográfico, incluyendo atributos como el título, el autor y otros datos asociados. En este sentido, debido a que un mismo material puede disponer de múltiples ejemplares físicos en la biblioteca, entre las tablas \textit{biblio\_materiales} y \textit{biblio\_ejemplares} se establece una relación de uno a muchos, \textit{ver figura \ref{fig:ERD}}.
 \vspace{0.3 cm}
+
+Por otra parte, la base de datos clasifica a los autores en dos categorías: autores personales, representados en la tabla \textit{biblio\_autores\_personales}, y autores corporativos, representados en la tabla \textit{biblio\_autores\_corporativos}. Ambas tablas mantienen una relación de tipo muchos a muchos (N:M) con la tabla \textit{biblio\_materiales}.
+\vspace{0.3 cm}
+
+Esto implica que un material puede estar asociado a varios autores personales o corporativos, y, de manera recíproca, un autor personal o corporativo puede estar vinculado a múltiples materiales. Para resolver esta relación, se emplean las tablas intermedias \textit{biblio\_materiales\_autorespersonales} y \textit{biblio\_materiales\_autorescorporativos}, que almacenan las claves foráneas de las entidades participantes.
+\vspace{0.3 cm}
+
+Finalmente, es importante señalar que también existe la posibilidad de que un material no esté asociado a ningún autor, ya sea personal o corporativo.
+
 
 
 \subsubsection{Diseño del Módulo de Autopréstamo}
@@ -672,49 +681,42 @@ En cada iteración se valida si el siguiente día supera la fecha límite establ
 	\label{fig:diagramaFlujoCalculoDias} 
 \end{figure}
 
+\subsubsection{Diseño del Módulo de Renovación}
 
-\subsubsection{Diseño inicial de UX del sistema:}
- Se presentó al cliente un diseño inicial del sistema, como se puede ver en las figuras \ref{fig:UX1}, \ref{fig:UX2}, \ref{fig:UX3}. Sin embargo, para seguir con los colores institucionales el diseñador de la universidad sugirió unos cambios en la paleta, pero siguiendo la estructura inicial de la aplicación, como se observan en las figuras \ref{fig:UX4}, \ref{fig:UX5}.
 
- \begin{figure}[H] 
-	\centering
-	\includegraphics[width=0.6\linewidth]{img/diseñoUXuno.png}
-	\vspace{-1mm}
-	\caption[Diseño inicial de UX Inicio de Sesión y Menú]{\textit{Se diseña la primera vista inicial del login y menú.}}
-	\label{fig:UX1} 
-\end{figure}
+El módulo de renovación corresponde al sistema de notificaciones implementado en la aplicación móvil. Este mecanismo se basa en la programación de una alarma periódica que se ejecuta diariamente a las 9:00 a. m. La aplicación, a través de esta alarma, realiza automáticamente una consulta al servidor con el fin de verificar si el usuario posee préstamos activos próximos a vencer, ya sea en un plazo de tres días o al día siguiente.
+\vspace{0.3 cm}
+
+En caso de encontrar préstamos con dichas condiciones, el servidor envía la información correspondiente a la aplicación móvil, la cual genera una notificación automática dirigida al usuario. De esta manera, el usuario esté informado de forma oportuna sobre el vencimiento de sus préstamos, lo que facilita la renovación anticipada o la devolución del material en los tiempos establecidos por la biblioteca.
 
  \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/diseñoUXdos.png}
+	\includegraphics[width=0.7\linewidth]{img/actividadNotificaciones.png}
 	\vspace{-1mm}
-	\caption[Diseño inicial de UX Lista de Préstamos]{\textit{Se diseña la primera vista inicial de lista de préstamos.}}
-	\label{fig:UX2} 
+	\caption[Diagrama de Secuencia Sistema de notificaciones]{\textit{Diagrama de secuencia para el proceso de notificaciones}}
+	\label{fig:actividadesNotificaciones} 
 \end{figure}
 
- \begin{figure}[H] 
-	\centering
-	\includegraphics[width=0.5\linewidth]{img/diseñoUXtres.png}
-	\vspace{-1mm}
-	\caption[Diseño inicial de UX Preguntas Frecuentes]{\textit{Se diseña la primera vista inicial de preguntas frecuentes}}
-	\label{fig:UX3} 
-\end{figure}
-
- \begin{figure}[H] 
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/diseñoUXcuatro.png}
-	\vspace{-1mm}
-	\caption[Diseño inicial de UX diseñador Login, Menú y Preguntas frecuentes]{\textit{Diseño por parte de la Universidad}}
-	\label{fig:UX4} 
-\end{figure}
+\subsubsection{Diseño del Módulo de Consultar Libros Prestados}
+Este módulo permite al usuario consultar la información relacionada con los préstamos que tiene actualmente activos. A través de esta funcionalidad, el sistema muestra datos relevantes de cada préstamo, tales como:
+\begin{itemize}
+    \item Título del libro.
+    \item Autor.
+    \item Fecha de inicio del préstamo.
+    \item Fecha de vencimiento.
+    \item Días restantes para la devolución.
+    \item Número de inventario del libro.
+\end{itemize}
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/dieñoUXcinco.png}
+	\includegraphics[width=0.6\linewidth]{img/secuenciaPrestamos.png}
 	\vspace{-1mm}
-	\caption[Diseño inicial de UX diseñador Lista de Préstamos]{\textit{Diseño por parte de la Universidad}}
-	\label{fig:UX5} 
+	\caption[Diagrama de secuencia para consultar los préstamos activos.]{\textit{Diagrama de secuencia para consultar los préstamos activos.}}
+	\label{fig:secuenciaPrestamos} 
 \end{figure}
+
+En el apéndice se encuentra el documento correspondiente a diseño de la estructura y comportamiento del sistema desarrollado.
 % Discusión
 \newpage
 \section{DISCUSIÓN}

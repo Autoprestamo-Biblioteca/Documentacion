@@ -36,8 +36,9 @@
 \contentsline {subsubsection}{\numberline {4}Definición del Backlog:}{34}{subsubsection.10.1.4}%
 \contentsline {subsection}{\numberline {B}Segunda Fase Diseño}{35}{subsection.10.2}%
 \contentsline {subsubsection}{\numberline {1}Análisis de la base de datos de biblioteca}{35}{subsubsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {2}Diseño del Módulo de Autopréstamo}{36}{subsubsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {3}Diseño inicial de UX del sistema:}{40}{subsubsection.10.2.3}%
+\contentsline {subsubsection}{\numberline {2}Diseño del Módulo de Autopréstamo}{37}{subsubsection.10.2.2}%
+\contentsline {subsubsection}{\numberline {3}Diseño del Módulo de Renovación}{41}{subsubsection.10.2.3}%
+\contentsline {subsubsection}{\numberline {4}Diseño del Módulo de Consultar Libros Prestados}{42}{subsubsection.10.2.4}%
 \contentsline {section}{\numberline {XI}DISCUSIÓN}{44}{section.11}%
 \contentsline {section}{\numberline {XII}CONCLUSIONES}{45}{section.12}%
 \contentsline {section}{\numberline {XIII}RECOMENDACIONES}{46}{section.13}%
