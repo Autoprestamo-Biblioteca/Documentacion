@@ -37,11 +37,11 @@
 \contentsline {subsection}{\numberline {B}Segunda Fase Diseño}{35}{subsection.10.2}%
 \contentsline {subsubsection}{\numberline {1}Análisis de la base de datos de biblioteca}{35}{subsubsection.10.2.1}%
 \contentsline {subsubsection}{\numberline {2}Diseño del Módulo de Autopréstamo}{36}{subsubsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {3}Diseño inicial de UX del sistema:}{39}{subsubsection.10.2.3}%
-\contentsline {section}{\numberline {XI}DISCUSIÓN}{43}{section.11}%
-\contentsline {section}{\numberline {XII}CONCLUSIONES}{44}{section.12}%
-\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{45}{section.13}%
-\contentsline {section}{REFERENCIAS}{48}{section.13}%
-\contentsline {section}{\numberline {A}ANEXOS}{49}{appendix.Alph1}%
-\contentsline {section}{\numberline {B}ANEXOS}{58}{appendix.Alph2}%
+\contentsline {subsubsection}{\numberline {3}Diseño inicial de UX del sistema:}{40}{subsubsection.10.2.3}%
+\contentsline {section}{\numberline {XI}DISCUSIÓN}{44}{section.11}%
+\contentsline {section}{\numberline {XII}CONCLUSIONES}{45}{section.12}%
+\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{46}{section.13}%
+\contentsline {section}{REFERENCIAS}{49}{section.13}%
+\contentsline {section}{\numberline {A}ANEXOS}{50}{appendix.Alph1}%
+\contentsline {section}{\numberline {B}ANEXOS}{59}{appendix.Alph2}%
 \contentsfinish 
