@@ -657,7 +657,20 @@ En este contexto, la base de datos Alejandría dispone de la tabla \textit{bibli
 \vspace{0.3 cm}
 
 Los meses de \textit{julio} y \textit{diciembre} corresponden a los periodos de finalización; por lo tanto, en dichos meses se establece una fecha límite de préstamo. Esto implica que, incluso si el usuario aún no ha agotado la cantidad de días permitidos de préstamo, el vencimiento se ajusta automáticamente a la fecha límite correspondiente al cierre de semestre.
+\vspace{0.3 cm}
 
+En la figura \ref{fig:diagramaFlujoCalculoDias} se observa el diagrama de flujo correspondiente al cálculo de la fecha de vencimiento de un préstamo. El proceso inicia en la fecha de inicio del préstamo y se repite mientras no se haya cumplido el número de días de préstamo permitidos.
+\vspace{0.3 cm}
+
+En cada iteración se valida si el siguiente día supera la fecha límite establecida para los semestres (julio o diciembre). En caso que se cumpla,  la fecha límite se asigna como la fecha final del préstamo. Si no se cumple esta condición, se evalúa si el día corresponde a un día no hábil (festivo o domingo). Los días no hábiles no se contabilizan en el préstamo; únicamente los días hábiles incrementan el contador. Finalmente, una vez cumplido el número de días, se asigna la fecha final
+
+ \begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\linewidth]{img/diagramaFlujoClaculoDias.png}
+	\vspace{-1mm}
+	\caption[Diagrama de Flujo: Cálculo de la fecha de vencimiento ]{\textit{Diagrama de flujo para calcular la fecha de vencimiento de un préstamo.}}
+	\label{fig:diagramaFlujoCalculoDias} 
+\end{figure}
 
 
 \subsubsection{Diseño inicial de UX del sistema:}
