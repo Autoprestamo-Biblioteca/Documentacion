@@ -74,9 +74,10 @@ Texto...
 \listoffigures
 
 \clearpage
-\renewcommand\lstlistlistingname{\hfill\normalfont\bfseries LISTA DE PSEUDOCÓDIGOS\hfill}
-\renewcommand{\lstlistingname}{Pseudocódigo}
-\lstlistoflistings
+
+
+
+
 
 \newpage
 \section*{GLOSARIO}
@@ -564,15 +565,99 @@ Como resultado inicial se obtuvo un diagrama que contenía todas las tablas; sin
 	\label{fig:ERD} 
 \end{figure}
 
+En la base de datos Alejandría, cada libro físico perteneciente a la biblioteca Benedicto XVI se encuentra representado mediante un registro en la tabla \textit{biblio\_ejemplares}. Dentro de esta estructura, el campo \textit{t\_inventario} constituye el número de inventario con el cual se administra el control de los materiales bibliográficos y, de igual manera, corresponde al código empleado por los usuarios para realizar las solicitudes de préstamo.
+\vspace{0.3 cm}
+
+El campo \textit{n\_idejemplar} actúa como identificador único de cada ejemplar y es utilizado como clave de referencia en otras tablas del sistema, tales como \textit{biblio\_prestamos} y \textit{biblio\_multas}.
+\vspace{0.3 cm}
+
+Adicionalmente, la tabla \textit{biblio\_materiales} concentra la información descriptiva del material bibliográfico, incluyendo atributos como el título, el autor y otros datos asociados. En este sentido, debido a que un mismo material puede disponer de múltiples ejemplares físicos en la biblioteca, entre las tablas \textit{biblio\_materiales} y \textit{biblio\_ejemplares} se establece una relación de uno a muchos, \textit{ver figura \ref{fig:ERD}}.
+\vspace{0.3 cm}
+
+
 \subsubsection{Diseño del Módulo de Autopréstamo}
-Aqui se que va ir la parte en donde para realizar el autoprestamo existen dos procesos uno en donde se le valida al usuario que puede realizar el prestamo y el otro como tal cuando se realiza el prestamo, ya tengo el diagrama de actvidades para las validaciones, ahora em falta hacer el otro paa demostrar como calculo los dias del prestamo.
+Para realizar un préstamo desde la aplicación móvil se deben contemplar dos procesos principales. El primero corresponde a la solicitud del préstamo, en el cual se ejecutan las validaciones necesarias para determinar si el usuario cumple con los requisitos establecidos y, en consecuencia, decidir si el préstamo puede continuar. 
+\vspace{0.3 cm}
+
+El segundo proceso corresponde a la confirmación del préstamo, donde se calculan los días de duración de acuerdo con las políticas de la biblioteca y se registra la información en la base de datos.
+\vspace{0.3 cm}
+
+En el caso del proceso de solicitud de préstamo, se definieron cinco validaciones fundamentales que deben cumplirse para que un usuario pueda prestar un libro. Estas validaciones se establecieron en base a la normativa de préstamo vigente de la biblioteca. 
+\vspace{0.3 cm}
+
+En la Figura \ref{fig:actividadesSolPrestamo} se presenta el diagrama de actividades que ilustra el flujo de este proceso. En él se observa que, en caso de que alguna de las condiciones no se cumpla, el flujo se interrumpe y la solicitud finaliza sin llegar a la etapa de confirmación del préstamo.
+
  \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.8\linewidth]{img/diagramaActividadesSolicitud.png}
+	\includegraphics[width=0.7\linewidth]{img/diagramaActividadesSolicitud.png}
 	\vspace{-1mm}
 	\caption[Diagrama de Actividades para solicitar un préstamo]{\textit{Diagrama de actividades para solicitar un préstamo.}}
 	\label{fig:actividadesSolPrestamo} 
 \end{figure}
+
+Las validaciones contempladas son las siguientes:
+\begin{enumerate}
+    \item \textbf{Verificar el código del libro: }Se comprueba que el código recibido tras el escaneo exista en la base de datos de Alejandría y esté asociado a un número de inventario válido.
+    \item \textbf{Verificar el tipo de colección:} Se verifica que el ejemplar pertenezca a la colección \textbf{general}, ya que la biblioteca dispone de seis tipos de colecciones (ver tabla \ref{tabla:tiposColeccion}), y únicamente la colección general, identificada con el \textbf{valor 1}, está habilitada para préstamo. Para este fin, se obtiene el campo \textit{n\_idtipocoleccion} y se compara con el valor asignado a la colección general.
+    
+    \stepcounter{mytablecounter} % Incrementa el contador personalizado
+    \addcontentsline{lot}{table}{\protect\numberline{\themytablecounter} Tipos de Colección}
+    \begin{table}[H]
+        \centering
+        \caption[Nombre en la lista de tablas]{\bfseries Tipos de Colección en la Biblioteca Benedicto XVI}
+        \label{tabla:tiposColeccion}
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{ID} & \textbf{Tipo de Colección}  \\
+            \hline
+            1 & General \\ 
+            \hline
+            2 & Reserva \\ 
+            \hline
+            3 & Referencia \\ 
+            \hline
+            4 & Hemeroteca \\
+            \hline
+            5 & Videoteca \\
+            \hline
+            6 & Descartado \\
+            \hline
+        \end{tabular}
+    \end{table}
+    \item \textbf{Verificar libro prestado: }Se comprueba que el ejemplar no se encuentre actualmente en condición de préstamo. Esta validación se realiza a partir del identificador \textit{n\_idejemplar}, mediante el cual se valida que no exista un registro de préstamo activo asociado al ejemplar.
+    \item \textbf{Verificar multas activas: }Se verifica que el usuario solicitante del préstamo no tenga multas pendientes. Para ello, se consulta la tabla \textit{biblio\_multas}, comprobando que no exista ningún registro de multa asociado al identificador del usuario.
+    \item \textbf{Verificar préstamos activos: }Se valida que el usuario no haya alcanzado el límite máximo de libros en préstamo de acuerdo con su tipo de usuario. Este límite se encuentra definido en la tabla \ref{tabla:tiposUsuario}, donde se especifica la cantidad de libros que puede solicitar cada tipo de usuario. Para la comprobación, se consultan los préstamos activos vigentes asociados al usuario y se compara con el número máximo permitido.
+    
+    \stepcounter{mytablecounter} % Incrementa el contador personalizado
+    \addcontentsline{lot}{table}{\protect\numberline{\themytablecounter} Tipos de Usuario}
+    \begin{table}[H]
+        \centering
+        \caption[Nombre en la lista de tablas]{\bfseries Tipos de Usuario}
+        \label{tabla:tiposUsuario}
+        \begin{tabular}{|l|l|l|l|}
+        \hline
+        \textbf{ID} & \textbf{Tipo de Usuario} & \textbf{Días Préstamo} & \textbf{Total de Ejemplares} \\ \hline
+        1           & Estudiantes              & 30                     & 10                           \\ \hline
+        2           & Administrativos          & 30                     & 20                           \\ \hline
+        3           & Docentes                 & 150                    & 30                           \\ \hline
+        4           & Practica                 & 30                     & 20                           \\ \hline
+        5           & Externos                 & 30                     & 10                           \\ \hline
+        6           & Maestría                 & 30                     & 20                           \\ \hline
+        7           & Especializaciones        & 30                     & 20                           \\ \hline
+        11          & Trabajo de grado         & 30                     & 20                           \\ \hline
+        \end{tabular}
+    \end{table}
+
+\end{enumerate}
+
+Una vez aprobada la solicitud de préstamo, el siguiente paso corresponde al cálculo de la fecha de vencimiento, es decir, determinar el tiempo de duración del préstamo. Para este cálculo se consideran dos factores principales: en primer lugar, el número de días permitido según el tipo de usuario (ver tabla \ref{tabla:tiposUsuario}), y, en segundo lugar, los días no hábiles.
+\vspace{0.3 cm}
+
+En este contexto, la base de datos Alejandría dispone de la tabla \textit{biblio\_diasnohabiles}, la cual almacena los días que no deben contabilizarse dentro del período del préstamo, tales como domingos y días festivos, también es necesario tener en cuenta los cierres de semestre.
+\vspace{0.3 cm}
+
+Los meses de \textit{julio} y \textit{diciembre} corresponden a los periodos de finalización; por lo tanto, en dichos meses se establece una fecha límite de préstamo. Esto implica que, incluso si el usuario aún no ha agotado la cantidad de días permitidos de préstamo, el vencimiento se ajusta automáticamente a la fecha límite correspondiente al cierre de semestre.
+
 
 
 \subsubsection{Diseño inicial de UX del sistema:}

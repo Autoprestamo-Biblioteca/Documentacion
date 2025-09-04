@@ -3232,6 +3232,176 @@
 					}
 				}
 			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAGZE2FdR1tH100=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAGZE2FdR1tIlP4=",
+					"_parent": {
+						"$ref": "AAAAAAGZE2FdR1tH100="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCTerminatorView",
+							"_id": "AAAAAAGZE2Fra1tOF5o=",
+							"_parent": {
+								"$ref": "AAAAAAGZE2FdR1tIlP4="
+							},
+							"model": {
+								"$ref": "AAAAAAGZE2Fra1tMbF8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGZE2Fra1tPp3A=",
+									"_parent": {
+										"$ref": "AAAAAAGZE2Fra1tOF5o="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 402,
+									"top": 90,
+									"width": 68.63720703125,
+									"height": 13,
+									"text": "Inicio",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 392,
+							"top": 80,
+							"width": 88.63720703125,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGZE2Fra1tPp3A="
+							}
+						},
+						{
+							"_type": "FCDataView",
+							"_id": "AAAAAAGZE2HMGFtYBCA=",
+							"_parent": {
+								"$ref": "AAAAAAGZE2FdR1tIlP4="
+							},
+							"model": {
+								"$ref": "AAAAAAGZE2HMGFtWIgU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGZE2HMGFtZQTs=",
+									"_parent": {
+										"$ref": "AAAAAAGZE2HMGFtYBCA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 406,
+									"top": 162,
+									"width": 60,
+									"height": 52,
+									"text": "dias fechaLimite, fechaInicio, diasNoHabiles",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 376,
+							"top": 152,
+							"width": 120,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAGZE2HMGFtZQTs="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAGZE2VmLFtrORc=",
+							"_parent": {
+								"$ref": "AAAAAAGZE2FdR1tIlP4="
+							},
+							"model": {
+								"$ref": "AAAAAAGZE2VmLFtp3yg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGZE2VmLFtsuUE=",
+									"_parent": {
+										"$ref": "AAAAAAGZE2VmLFtrORc="
+									},
+									"model": {
+										"$ref": "AAAAAAGZE2VmLFtp3yg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 450,
+									"top": 125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGZE2VmLFtrORc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGZE2HMGFtYBCA="
+							},
+							"tail": {
+								"$ref": "AAAAAAGZE2Fra1tOF5o="
+							},
+							"lineStyle": 2,
+							"points": "436:113;436:152",
+							"nameLabel": {
+								"$ref": "AAAAAAGZE2VmLFtsuUE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCTerminator",
+					"_id": "AAAAAAGZE2Fra1tMbF8=",
+					"_parent": {
+						"$ref": "AAAAAAGZE2FdR1tH100="
+					},
+					"name": "Inicio",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAGZE2VmLFtp3yg=",
+							"_parent": {
+								"$ref": "AAAAAAGZE2Fra1tMbF8="
+							},
+							"source": {
+								"$ref": "AAAAAAGZE2Fra1tMbF8="
+							},
+							"target": {
+								"$ref": "AAAAAAGZE2HMGFtWIgU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCData",
+					"_id": "AAAAAAGZE2HMGFtWIgU=",
+					"_parent": {
+						"$ref": "AAAAAAGZE2FdR1tH100="
+					},
+					"name": "dias fechaLimite, fechaInicio, diasNoHabiles"
+				}
+			]
 		}
 	]
 }
