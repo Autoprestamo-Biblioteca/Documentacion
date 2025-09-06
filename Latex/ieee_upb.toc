@@ -16,13 +16,13 @@
 \contentsline {subsection}{\numberline {C}Marco conceptual}{18}{subsection.5.3}%
 \contentsline {subsubsection}{\numberline {1}Lógica de Negocio: }{18}{subsubsection.5.3.1}%
 \contentsline {subsubsection}{\numberline {2}Tecnologías Involucradas:}{22}{subsubsection.5.3.2}%
-\contentsline {subsection}{\numberline {D}Marco Tecnológico}{25}{subsection.5.4}%
-\contentsline {subsubsection}{\numberline {1}Diseño y desarrollo de aplicaciones para Android: }{25}{subsubsection.5.4.1}%
-\contentsline {subsubsection}{\numberline {2}Tecnologías utilizadas en el desarrollo de la aplicación: }{25}{subsubsection.5.4.2}%
-\contentsline {paragraph}{\numberline {a}\textbf {Flutter y Dart}}{25}{paragraph.5.4.2.1}%
+\contentsline {subsection}{\numberline {D}Marco Tecnológico}{26}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {1}Diseño y desarrollo de aplicaciones para Android: }{26}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {2}Tecnologías utilizadas en el desarrollo de la aplicación: }{26}{subsubsection.5.4.2}%
+\contentsline {paragraph}{\numberline {a}\textbf {Flutter y Dart}}{26}{paragraph.5.4.2.1}%
 \contentsline {paragraph}{\numberline {b}\textbf {Node.js y Express}}{26}{paragraph.5.4.2.2}%
-\contentsline {paragraph}{\numberline {c}\textbf {GitHub: Control de versiones y colaboración en el desarrollo} }{26}{paragraph.5.4.2.3}%
-\contentsline {subsection}{\numberline {E}Marco Institucional}{26}{subsection.5.5}%
+\contentsline {paragraph}{\numberline {c}\textbf {GitHub: Control de versiones y colaboración en el desarrollo} }{27}{paragraph.5.4.2.3}%
+\contentsline {subsection}{\numberline {E}Marco Institucional}{27}{subsection.5.5}%
 \contentsline {section}{\numberline {VI}METODOLOGÍA}{28}{section.6}%
 \contentsline {subsection}{\numberline {A}Implementación del marco de Trabajo Scrum}{29}{subsection.6.1}%
 \contentsline {section}{\numberline {VII}PROPIEDAD INTELECTUAL}{30}{section.7}%
@@ -39,10 +39,12 @@
 \contentsline {subsubsection}{\numberline {2}Diseño del Módulo de Autopréstamo}{38}{subsubsection.10.2.2}%
 \contentsline {subsubsection}{\numberline {3}Diseño del Módulo de Renovación}{42}{subsubsection.10.2.3}%
 \contentsline {subsubsection}{\numberline {4}Diseño del Módulo de Consultar Libros Prestados}{43}{subsubsection.10.2.4}%
-\contentsline {section}{\numberline {XI}DISCUSIÓN}{45}{section.11}%
-\contentsline {section}{\numberline {XII}CONCLUSIONES}{46}{section.12}%
-\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{47}{section.13}%
-\contentsline {section}{REFERENCIAS}{50}{section.13}%
-\contentsline {section}{\numberline {A}ANEXOS}{51}{appendix.Alph1}%
-\contentsline {section}{\numberline {B}ANEXOS}{60}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {C}Cuarta Fase: Pruebas de Software}{44}{subsection.10.3}%
+\contentsline {subsection}{\numberline {D}Quinta Fase: Implementación}{45}{subsection.10.4}%
+\contentsline {section}{\numberline {XI}DISCUSIÓN}{46}{section.11}%
+\contentsline {section}{\numberline {XII}CONCLUSIONES}{47}{section.12}%
+\contentsline {section}{\numberline {XIII}RECOMENDACIONES}{48}{section.13}%
+\contentsline {section}{REFERENCIAS}{51}{section.13}%
+\contentsline {section}{\numberline {A}ANEXOS}{52}{appendix.Alph1}%
+\contentsline {section}{\numberline {B}ANEXOS}{61}{appendix.Alph2}%
 \contentsfinish 

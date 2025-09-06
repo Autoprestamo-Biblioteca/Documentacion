@@ -21,45 +21,45 @@ Warning--empty journal in gomez2015biblioteca
 Warning--empty journal in schwaber2020guia
 
 Done.
-You've used 31 entries,
+You've used 32 entries,
             4087 wiz_defined-function locations,
-            997 strings with 13559 characters,
-and the built_in function-call counts, 17837 in all, are:
-= -- 1487
-> -- 388
-< -- 109
-+ -- 203
-- -- 73
-* -- 822
-:= -- 2951
-add.period$ -- 61
-call.type$ -- 31
-change.case$ -- 31
-chr.to.int$ -- 231
-cite$ -- 37
-duplicate$ -- 1336
-empty$ -- 1432
-format.name$ -- 94
-if$ -- 4052
+            1003 strings with 13735 characters,
+and the built_in function-call counts, 18715 in all, are:
+= -- 1556
+> -- 405
+< -- 118
++ -- 213
+- -- 75
+* -- 861
+:= -- 3069
+add.period$ -- 63
+call.type$ -- 32
+change.case$ -- 32
+chr.to.int$ -- 255
+cite$ -- 38
+duplicate$ -- 1396
+empty$ -- 1511
+format.name$ -- 97
+if$ -- 4264
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 249
-newline$ -- 130
-num.names$ -- 31
-pop$ -- 587
+int.to.str$ -- 32
+missing$ -- 258
+newline$ -- 133
+num.names$ -- 32
+pop$ -- 610
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 1393
+skip$ -- 1464
 stack$ -- 0
-substring$ -- 579
-swap$ -- 1000
-text.length$ -- 32
+substring$ -- 636
+swap$ -- 1049
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 31
+type$ -- 32
 warning$ -- 6
-while$ -- 72
-width$ -- 33
-write$ -- 317
+while$ -- 77
+width$ -- 34
+write$ -- 326
 (There were 6 warnings)
