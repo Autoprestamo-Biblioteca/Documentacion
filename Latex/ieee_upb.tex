@@ -348,7 +348,35 @@ UMUX se basa en la definición de usabilidad propuesta por la norma ISO 9241-11,
     
 \end{table}
 
+Para calcular el porcentaje \textbf{UMUX}, es necesario realizar un proceso de recodificación de las respuestas y asignarles su puntaje:
+\begin{itemize}
+    \item Para los ítems positivos (1 y 3), se resta 1 al valor de la respuesta.
+        \[
+    X_{\text{recodificado}} = X - 1
+    \]
+    \item Para los ítems negativos (2 y 4), se resta el valor de la respuesta a 7.
+        \[
+    X_{\text{recodificado}} = 7 - X
+    \]
 
+\end{itemize}
+Cuando se obtienen los puntajes de cada pregunta, se calcula el porcentaje UMUX para cada participante de la siguiente manera:
+
+\begin{itemize}
+    \item Se suman los puntajes de las cuatro preguntas:
+
+    \[
+    \text{Suma} = (X_1 - 1) + (7 - X_2) + (X_3 - 1) + (7 - X_4)
+    \]
+
+    \item A la suma se le resta 4 y el resultado se multiplica por \(\tfrac{100}{24}\):
+
+    \begin{equation}
+        UMUX = \frac{(\text{Suma} - 4) \times 100}{24}
+        \label{eq:umux}
+    \end{equation}
+\end{itemize}
+El resultado final es un valor entre 0 y 100, donde un puntaje más alto indica una mejor usabilidad percibida del sistema por parte del usuario. Esta métrica proporciona una evaluación cuantitativa de la experiencia de uso del aplicativo móvil de autopréstamo, permitiendo identificar áreas de mejora y validar la efectividad de la solución implementada \cite{umux}.
 
 \subsection{Marco Tecnológico}
 \subsubsection{Diseño y desarrollo de aplicaciones para Android: }
@@ -715,8 +743,55 @@ Este módulo permite al usuario consultar la información relacionada con los pr
 	\caption[Diagrama de secuencia para consultar los préstamos activos.]{\textit{Diagrama de secuencia para consultar los préstamos activos.}}
 	\label{fig:secuenciaPrestamos} 
 \end{figure}
-
 En el apéndice se encuentra el documento correspondiente a diseño de la estructura y comportamiento del sistema desarrollado.
+
+\subsection{Cuarta Fase: Pruebas de Software}
+Al finalizar el tercer sprint, se llevó a cabo una reunión con el usuario en la que se revisó el cumplimiento de los requisitos establecidos para la aplicación móvil. Durante esta sesión se validaron las diferentes funcionalidades del aplicativo en relación con los requerimientos planteados inicialmente, evidenciándose que el sistema móvil cumple satisfactoriamente con ellos. Por otro lado, en el apéndice se encuentra la carta de entrega, firmada por los integrantes del equipo y jefatura de biblioteca, en la cual se certifica que el aplicativo móvil cumple con los requisitos acordados.
+\vspace{0.3 cm}
+
+Con el objetivo de comprobar los tiempos de respuesta del aplicativo, su adaptación a las diferentes resoluciones y tamaños de pantalla, así como el tiempo de descarga e instalación, se llevaron a cabo pruebas manuales. En el Apéndice X se presentan las tarjetas de prueba correspondientes, mientras que en el Apéndice Y se incluyen las tarjetas de aprendizaje asociadas.
+\vspace{0.3 cm}
+
+La evaluación heurística es un método utilizado para analizar la usabilidad de un sistema, cuyo propósito es identificar problemas de diseño basándose en principios generales de interacción \cite{nielsen1990heuristic}. En el contexto de este proyecto, se aplicó una adaptación de dicha técnica, ajustando las preguntas al caso específico del aplicativo móvil de autopréstamo. Los resultados detallados de esta evaluación se presentan en el anexo correspondiente.
+\vspace{0.3 cm}
+
+En términos generales, la evaluación permitió evidenciar que la interfaz cumple con los principios de usabilidad, destacándose la visibilidad del estado del sistema, la correspondencia entre el sistema y el mundo real, el principio de reconocer mejor que recordar y la prevención de errores, todos ellos aspectos que facilitan la interacción de los usuarios con la aplicación.
+\vspace{0.3 cm}
+
+Para medir la usabilidad percibida del sistema, se aplicó el cuestionario UMUX (Usability Metric for User Experience), el cual consta de cuatro preguntas respondidas en una escala tipo Likert de 1 a 7 (ver Tabla \ref{tabla:1}).
+\vspace{0.3 cm}
+
+Posteriormente, se calculó el porcentaje UMUX de cada participante mediante la Ecuación~\ref{eq:umux}, obteniéndose los resultados que se presentan en la Tabla \ref{tabla:resultadosumux}. Dichos valores reflejan el nivel de usabilidad percibido por los usuarios en una escala de 0 a 100.
+
+\stepcounter{mytablecounter} % Incrementa el contador personalizado
+\addcontentsline{lot}{table}{\protect\numberline{\themytablecounter} Resultados Prueba UMUX}
+\begin{table}[H]
+    \centering
+    \caption{Resultados Prueba UMUX}
+    \label{tabla:resultadosumux}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Participante} & \multicolumn{1}{l}{\textbf{X1}} & \multicolumn{1}{l}{\textbf{X2}} & \multicolumn{1}{l}{\textbf{X3}} & \multicolumn{1}{l}{\textbf{X4}} & \multicolumn{1}{l}{\textbf{Suma}} & \multicolumn{1}{l}{\textbf{UMUX (\%)}} \\ \hline
+Usuario1              & 6                               & 6                               & 6                               & 6                               & 24                                & 100                                    \\
+Usuario 2             & 6                               & 6                               & 6                               & 6                               & 24                                & 100                                    \\
+Usuario 3             & 6                               & 0                               & 6                               & 0                               & 12                                & 50                                     \\
+Usuario 4             & 6                               & 6                               & 6                               & 6                               & 24                                & 100                                    \\
+Usuario 5             & 6                               & 6                               & 6                               & 6                               & 24                                & 100                                    \\
+Usuario 6             & 5                               & 5                               & 6                               & 6                               & 22                                & 91,66                                  \\
+Usuario 7             & 6                               & 6                               & 6                               & 6                               & 24                                & 100                                    \\ \hline
+\end{tabular}
+\end{table}
+El promedio obtenido en la prueba fue de 91,6\%. De acuerdo con el artículo The Usability Metric for User Experience (UMUX) \cite{umux}, un puntaje superior al 65\% indica una percepción aceptable de la usabilidad. En este sentido, los resultados sugieren que el aplicativo cumple con un nivel de usabilidad adecuado
+
+\subsection{Quinta Fase: Implementación}
+Una vez aprobado el prototipo final por parte de la jefatura de biblioteca (cliente), el servidor backend fue desplegado en una máquina virtual con sistema operativo Red Hat 9, dentro de la infraestructura tecnológica de la Universidad Pontificia Bolivariana. Para el despliegue se empleó un script en Bash, ejecutado por el equipo de CTIC de la institución.
+\vspace{0.3 cm}
+
+El aplicativo puede ser utilizado tanto en la red institucional LAN como mediante conexiones de datos personales. En el Apéndice se incluyen evidencias del sistema desplegado en el dominio:appautoprestamo.bucaramanga.upb.edu.co , así como una demostración de sus funcionalidades y una prueba de conectividad.
+\vspace{0.3 cm}
+
+Durante las pruebas con los usuarios, aproximadamente la mitad utilizó la aplicación mediante datos móviles personales, mientras que la otra mitad lo hizo conectados a la red institucional (estudiantes y personal administrativo).
+
 % Discusión
 \newpage
 \section{DISCUSIÓN}

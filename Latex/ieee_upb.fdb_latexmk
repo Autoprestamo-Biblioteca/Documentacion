@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex ieee_upb"] 1757026332.12438 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1757026445.55597 0
-  "./bibliography.bib" 1756911570 9266 265bdcac05edf0b536cf070b70c6b799 ""
+["bibtex ieee_upb"] 1757131597.79821 "ieee_upb.aux" "ieee_upb.bbl" "ieee_upb" 1757131603.13024 0
+  "./bibliography.bib" 1757131304 9531 c0da630f4687f42e409e7d58523b887f ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "ieee_upb.aux" 1757026444 12907 8ea37a7e7fe67e50f68c2e698172f4cb "pdflatex"
+  "ieee_upb.aux" 1757131602 13560 b83e75631f897679e0af3467de4164ab "pdflatex"
   (generated)
   "ieee_upb.bbl"
   "ieee_upb.blg"
   (rewritten before read)
-["pdflatex"] 1757026440.1332 "c:/Autoprestamo/Documentaciom/Latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1757026445.5567 0
+["pdflatex"] 1757131598.08421 "c:/Autoprestamo/Documentaciom/Latex/ieee_upb.tex" "ieee_upb.pdf" "ieee_upb" 1757131603.13092 0
   "C:/Users/alexa/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757018349 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/alexa/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1755615957 13257295 5827867f1ee6f78b6b27383d2f2b6751 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -42,6 +42,10 @@
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136871348 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136871348 44656 0cbca70e0534538582128f6b54593cca ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136871348 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -228,15 +232,15 @@
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/alexa/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Autoprestamo/Documentaciom/Latex/ieee_upb.tex" 1757026439 72817 26a03861d818ad869f5c028b7c757b22 ""
-  "ieee_upb.aux" 1757026444 12907 8ea37a7e7fe67e50f68c2e698172f4cb "pdflatex"
-  "ieee_upb.bbl" 1757026332 8416 aaa67249584c4d2602226cc7aa7d4bb6 "bibtex ieee_upb"
+  "c:/Autoprestamo/Documentaciom/Latex/ieee_upb.tex" 1757131586 80250 ca9f98096b74fb9da8745e894e7caa6e ""
+  "ieee_upb.aux" 1757131602 13560 b83e75631f897679e0af3467de4164ab "pdflatex"
+  "ieee_upb.bbl" 1757131598 8634 7501772c9567c081f78fd2159c5c1965 "bibtex ieee_upb"
   "ieee_upb.cls" 1756911570 9348 6180986f66607763ef3d814fffb69f98 ""
-  "ieee_upb.lof" 1757026444 1443 e1511b815d79a6eac1a112f4e2b8bdea "pdflatex"
-  "ieee_upb.lot" 1757026444 345 ba3ab06a3bbb1a9c8642a32847eea9b9 "pdflatex"
-  "ieee_upb.out" 1757026444 8499 f715a9c5bf7bbe7b9243e4fc395c2e3a "pdflatex"
-  "ieee_upb.tex" 1757026439 72817 26a03861d818ad869f5c028b7c757b22 ""
-  "ieee_upb.toc" 1757026444 4355 ca5a694ba345fe6b468c88abd17f63c0 "pdflatex"
+  "ieee_upb.lof" 1757131602 1443 e1511b815d79a6eac1a112f4e2b8bdea "pdflatex"
+  "ieee_upb.lot" 1757131602 429 16f0671794e0dc57f4260c27eb714f0b "pdflatex"
+  "ieee_upb.out" 1757131602 8935 11fd87be85c994438e5690b88fbf0e3a "pdflatex"
+  "ieee_upb.tex" 1757131586 80250 ca9f98096b74fb9da8745e894e7caa6e ""
+  "ieee_upb.toc" 1757131602 4547 c4297d83dfc9e617f21867c130b6b529 "pdflatex"
   "img/DFpasosAutoPrestamo.png" 1756911570 174739 81425cb29b5c295606b79441486c38d3 ""
   "img/DFpasosPrestamo.png" 1756911570 241736 4f61e44ec0ddf19461732ecac7b74e56 ""
   "img/actividadNotificaciones.png" 1757019527 41726 99a6d9dda3a025d809f20087261fbadf ""
